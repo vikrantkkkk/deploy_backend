@@ -39,7 +39,7 @@ app.use("/docs", swaggerUi.serve, swaggerUi.setup(swaggerSpec));
 app.use("/api/users", usersRouter);
 
 app.get("/", (req, res) => {
-  res.send("Node + PostgreSQL Working. Visit /api-docs for Swagger UI.");
+  res.send("Backend Auto Deploy Working 🚀");
 });
 
 async function startServer() {
